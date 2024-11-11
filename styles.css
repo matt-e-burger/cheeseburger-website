@@ -20,6 +20,9 @@ ul, a {
 
 button {
     width: 100px;
+    background-color: rgb(240, 240, 156);
+    border: solid 2px white;
+    outline: 2px solid black;
 }
 
 .container-1 {
@@ -106,13 +109,46 @@ button {
     justify-content: flex-end;
 }
 
+/* container four 4444444444444444444 */
 
+/* .container-4 {
+    outline: 3pt solid black;
+    display: flex;
+} */
 
+/* .container-4 {
+    display: flex;
+} */
 
+.container-4{
+    padding: 20px;
+    background-color: olive;
+    display: flex;
+    justify-content: center;
+}
+.window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 30px;
+    padding: 20px;
+    width: 700px;
+}
+
+.window, .left .right{
+    outline: 2px solid black;
+}
+
+/* Container Five 5555555555555555555555555555555 */
 
 
 .footer {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 156);
+    padding: 20px;
 }
 
 
