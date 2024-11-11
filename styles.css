@@ -30,6 +30,40 @@ body {
     gap: 20px;
 }
 
+/* Start Container Two 222222222222222222222222222 */
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.top {
+    display: flex;
+    font-size: 24pt;
+}
+
+.bottom {
+    display: flex;
+    justify-items: center;
+    gap: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.bottom img {
+    width: 200px;
+    border-radius: 20px;
+}
+
 
 
 ul, a {
